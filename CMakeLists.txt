@@ -13,7 +13,6 @@ remake_project(
   LICENSE "GNU Lesser General Public License (LGPL)"
   PREFIX velodyne-
   INSTALL /usr
-  CONFIGURATION_DESTINATION /etc/velodyne
   EXTRA_CXX_FLAGS "-std=c++0x -Wall -Wextra"
 )
 
