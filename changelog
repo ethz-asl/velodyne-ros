@@ -1,3 +1,9 @@
+velodyne-ros (0.1-78) precise; urgency=low
+
+  * Fixed git revision passing in distribution macro call
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 17 Feb 2015 15:35:00 +0100
+
 velodyne-ros (0.1-77) precise; urgency=low
 
   * Removed configuration destination
