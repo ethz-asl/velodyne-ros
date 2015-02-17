@@ -1,6 +1,6 @@
 <launch>
   <node name="velodyne" pkg="velodyne" type="velodyne_node" output="screen" respawn="true">
-    <rosparam command="load" file="$(find velodyne)/etc/velodyne32.yaml"/>
-    <param name="sensor/calibration_file" value="$(find velodyne)/etc/calib-HDL-32E.dat"/>
+    <rosparam command="load" file="$(find velodyne)/config/velodyne32.yaml"/>
+    <param name="sensor/calibration_file" value="$(find velodyne)/config/calib-HDL-32E.dat"/>
   </node>
 </launch>

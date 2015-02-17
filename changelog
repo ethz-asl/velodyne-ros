@@ -1,190 +1,199 @@
-velodyne-ros (1:0.1-74) precise; urgency=low
+velodyne-ros (0.1-75) precise; urgency=low
+
+  * Fixed project information
+  * Removed system-wide ROS configuration file
+  * Adapted configuration file path in launch files
+  * Linking against system libsnappy1
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 17 Feb 2015 15:28:00 +0100
+
+velodyne-ros (0.1-74) precise; urgency=low
 
   * linking against new libvelodyne 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 25 Nov 2014 13:32:20 +0100
 
-velodyne-ros (1:0.1-73) precise; urgency=low
+velodyne-ros (0.1-73) precise; urgency=low
 
   * correct linkage error against old libvelodyne 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 20 Nov 2014 17:34:14 +0100
 
-velodyne-ros (1:0.1-72) precise; urgency=low
+velodyne-ros (0.1-72) precise; urgency=low
 
   * porting double to float 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 20 Nov 2014 15:19:13 +0100
 
-velodyne-ros (1:0.1-71) precise; urgency=low
+velodyne-ros (0.1-71) precise; urgency=low
 
   * removing literal suffixes 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 20 Nov 2014 13:45:58 +0100
 
-velodyne-ros (1:0.1-70) precise; urgency=low
+velodyne-ros (0.1-70) precise; urgency=low
 
   * miscellaneous type improvements 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 19 Nov 2014 16:14:57 +0100
 
-velodyne-ros (1:0.1-69) precise; urgency=low
+velodyne-ros (0.1-69) precise; urgency=low
 
   * adding a minimalistic ping function to estimate communication delay 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Mon, 27 Oct 2014 18:02:41 +0100
 
-velodyne-ros (1:0.1-68) precise; urgency=low
+velodyne-ros (0.1-68) precise; urgency=low
 
   * changing timestamps from double to integer 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 24 Oct 2014 11:09:22 +0200
 
-velodyne-ros (1:0.1-67) trusty; urgency=medium
+velodyne-ros (0.1-67) trusty; urgency=medium
 
   * completing data packet message 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 02 Oct 2014 13:00:28 +0200
 
-velodyne-ros (1:0.1-66) trusty; urgency=medium
+velodyne-ros (0.1-66) trusty; urgency=medium
 
   * adding covariance information 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 01 Oct 2014 14:13:42 +0200
 
-velodyne-ros (1:0.1-65) precise; urgency=low
+velodyne-ros (0.1-65) precise; urgency=low
 
   * cleaning up the code 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 26 Sep 2014 10:54:30 +0200
 
-velodyne-ros (1:0.1-64) precise; urgency=low
+velodyne-ros (0.1-64) precise; urgency=low
 
   * publish stuff on demand 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 24 Sep 2014 10:23:03 +0200
 
-velodyne-ros (1:0.1-63) trusty; urgency=low
+velodyne-ros (0.1-63) trusty; urgency=low
 
   * correcting IMU output 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 17 Sep 2014 12:43:41 +0200
 
-velodyne-ros (1:0.1-62) trusty; urgency=low
+velodyne-ros (0.1-62) trusty; urgency=low
 
   * correcting diagnostics for IMU 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 17 Sep 2014 10:23:07 +0200
 
-velodyne-ros (1:0.1-61) trusty; urgency=low
+velodyne-ros (0.1-61) trusty; urgency=low
 
   * porting to trusty and indigo 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 16 Sep 2014 17:02:56 +0200
 
-velodyne-ros (1:0.1-60) precise; urgency=low
+velodyne-ros (0.1-60) precise; urgency=low
 
   * small improvement in the frequency 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 04 Sep 2014 15:10:04 +0200
 
-velodyne-ros (1:0.1-59) UNRELEASED; urgency=medium
+velodyne-ros (0.1-59) UNRELEASED; urgency=medium
 
   * improving the acquisition loop 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 04 Sep 2014 13:55:27 +0200
 
-velodyne-ros (1:0.1-58) precise; urgency=low
+velodyne-ros (0.1-58) precise; urgency=low
 
   * issues with groovy 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 27 Mar 2014 13:43:28 +0100
 
-velodyne-ros (1:0.1-57) precise; urgency=low
+velodyne-ros (0.1-57) precise; urgency=low
 
   * adding pkg-config 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 25 Mar 2014 17:06:04 +0100
 
-velodyne-ros (1:0.1-56) precise; urgency=low
+velodyne-ros (0.1-56) precise; urgency=low
 
   * remake update
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 19 Jul 2013 07:34:48 +0000
 
-velodyne-ros (1:0.1-55) precise; urgency=low
+velodyne-ros (0.1-55) precise; urgency=low
 
   * another try in groovy 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 18 Jul 2013 14:16:30 +0000
 
-velodyne-ros (1:0.1-54) precise; urgency=low
+velodyne-ros (0.1-54) precise; urgency=low
 
   * update version 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Sun, 14 Jul 2013 15:50:55 +0000
 
-velodyne-ros (1:0.1-53) precise; urgency=low
+velodyne-ros (0.1-53) precise; urgency=low
 
   * bug in snappy publisher 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 11 Jun 2013 19:31:48 +0200
 
-velodyne-ros (1:0.1-52) precise; urgency=low
+velodyne-ros (0.1-52) precise; urgency=low
 
   * packet counter was wrong 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Mon, 10 Jun 2013 11:28:01 +0000
 
-velodyne-ros (1:0.1-51) precise; urgency=low
+velodyne-ros (0.1-51) precise; urgency=low
 
   * changing stringstream to ostringstream 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Mon, 10 Jun 2013 11:01:46 +0000
 
-velodyne-ros (1:0.1-50) precise; urgency=low
+velodyne-ros (0.1-50) precise; urgency=low
 
   * rosbash dep for groovy 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 06 Jun 2013 18:15:55 +0000
 
-velodyne-ros (1:0.1-49) precise; urgency=low
+velodyne-ros (0.1-49) precise; urgency=low
 
   * distribute for groovy 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 06 Jun 2013 08:45:51 +0000
 
-velodyne-ros (1:0.1-48) precise; urgency=low
+velodyne-ros (0.1-48) precise; urgency=low
 
   * increasing version for PPA 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 05 Jun 2013 20:33:38 +0000
 
-velodyne-ros (1:0.1-47) precise; urgency=low
+velodyne-ros (0.1-47) precise; urgency=low
 
   * changing frame_id 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 05 Jun 2013 17:32:15 +0000
 
-velodyne-ros (1:0.1-46) precise; urgency=low
+velodyne-ros (0.1-46) precise; urgency=low
 
   * small bugs discovered on the field 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Mon, 03 Jun 2013 15:31:54 +0200
 
-velodyne-ros (1:0.1-45) precise; urgency=low
+velodyne-ros (0.1-45) precise; urgency=low
 
   * removing include on scan cloud 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 31 May 2013 14:45:32 +0000
 
-velodyne-ros (1:0.1-44) precise; urgency=low
+velodyne-ros (0.1-44) precise; urgency=low
 
   * correcting version number
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 31 May 2013 14:40:01 +0000
 
-velodyne-ros (1:0.1-43) precise; urgency=low
+velodyne-ros (0.1-43) precise; urgency=low
 
   * adding a python file for setting RPM
     adding a rate to the main loop, avoiding overload of CPU
@@ -192,109 +201,109 @@ velodyne-ros (1:0.1-43) precise; urgency=low
 
  -- Jerome Maye <jmaye@jmaye-laptop>  Fri, 31 May 2013 14:31:54 +0000
 
-velodyne-ros (1:0.1-42) precise; urgency=low
+velodyne-ros (0.1-42) precise; urgency=low
 
   * make the node respawning 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 30 May 2013 17:48:34 +0000
 
-velodyne-ros (1:0.1-41) precise; urgency=low
+velodyne-ros (0.1-41) precise; urgency=low
 
   * update of remake for mixing ROS distributions 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 30 May 2013 13:45:59 +0000
 
-velodyne-ros (1:0.1-40) precise; urgency=low
+velodyne-ros (0.1-40) precise; urgency=low
 
   * changing package name for PPA 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 30 May 2013 07:49:39 +0000
 
-velodyne-ros (1:0.1-39) precise; urgency=low
+velodyne-ros (0.1-39) precise; urgency=low
 
   * removing nullptr 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 29 May 2013 14:46:50 +0000
 
-velodyne-ros (1:0.1-38) precise; urgency=low
+velodyne-ros (0.1-38) precise; urgency=low
 
   * adding an include for the PPA 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 29 May 2013 09:12:58 +0000
 
-velodyne-ros (1:0.1-37) precise; urgency=low
+velodyne-ros (0.1-37) precise; urgency=low
 
   * missing dependencies 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 29 May 2013 07:52:41 +0000
 
-velodyne-ros (1:0.1-36) precise; urgency=low
+velodyne-ros (0.1-36) precise; urgency=low
 
   * distribution to ppa
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 28 May 2013 18:37:20 +0000
 
-velodyne-ros (1:0.1-35) precise; urgency=low
+velodyne-ros (0.1-35) precise; urgency=low
 
   * make expression catch const 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 28 May 2013 17:22:40 +0000
 
-velodyne-ros (1:0.1-34) precise; urgency=low
+velodyne-ros (0.1-34) precise; urgency=low
 
   * adding missing file 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 28 May 2013 09:12:57 +0000
 
-velodyne-ros (1:0.1-33) precise; urgency=low
+velodyne-ros (0.1-33) precise; urgency=low
 
   * adding snappy compression 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Mon, 27 May 2013 15:23:42 +0000
 
-velodyne-ros (1:0.1-32) precise; urgency=low
+velodyne-ros (0.1-32) precise; urgency=low
 
   * update diagnostic tools, packet counters, frequency
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Sat, 25 May 2013 10:47:55 +0000
 
-velodyne-ros (1:0.1-31) precise; urgency=low
+velodyne-ros (0.1-31) precise; urgency=low
 
   * making thread end safely 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 23 May 2013 18:17:15 +0000
 
-velodyne-ros (1:0.1-30) precise; urgency=low
+velodyne-ros (0.1-30) precise; urgency=low
 
   * changing udev 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 21 May 2013 20:25:39 +0000
 
-velodyne-ros (1:0.1-29) precise; urgency=low
+velodyne-ros (0.1-29) precise; urgency=low
 
   * changing serial port name 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 21 May 2013 10:45:16 +0000
 
-velodyne-ros (1:0.1-28) precise; urgency=low
+velodyne-ros (0.1-28) precise; urgency=low
 
   * fixing dependency on sensor_msgs 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Sun, 19 May 2013 15:23:58 +0000
 
-velodyne-ros (1:0.1-27) precise; urgency=low
+velodyne-ros (0.1-27) precise; urgency=low
 
   * correction for scope of service 
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 17 May 2013 08:44:50 +0000
 
-velodyne-ros (1:0.1-26) precise; urgency=low
+velodyne-ros (0.1-26) precise; urgency=low
 
   * adding service to set the RPM of the Velodyne
 
  -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 17 May 2013 08:26:31 +0000
 
-velodyne-ros (1:0.1-25) precise; urgency=low
+velodyne-ros (0.1-25) precise; urgency=low
 
   * adding epoch to the version, not to be confused by ros version
 
