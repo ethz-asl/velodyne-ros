@@ -1,3 +1,9 @@
+velodyne-ros (0.1-81) precise; urgency=low
+
+  * Added install rule for README.md
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Wed, 18 Feb 2015 09:12:00 +0100
+ 
 velodyne-ros (0.1-80) precise; urgency=low
 
   * Updated README.md

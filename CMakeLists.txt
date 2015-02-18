@@ -14,6 +14,7 @@ remake_project(
   LICENSE "GNU Lesser General Public License (LGPL)"
   PREFIX velodyne-
   INSTALL /usr
+  README README.md
   EXTRA_CXX_FLAGS "-std=c++0x -Wall -Wextra"
 )
 
