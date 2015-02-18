@@ -1,3 +1,9 @@
+velodyne-ros (0.1-79) precise; urgency=low
+
+  * Removed ROS package description
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Wed, 18 Feb 2015 06:44:00 +0100
+
 velodyne-ros (0.1-78) precise; urgency=low
 
   * Fixed git revision passing in distribution macro call

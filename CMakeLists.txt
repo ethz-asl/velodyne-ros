@@ -7,6 +7,7 @@ remake_project(
   VERSION 0.1
   RELEASE alpha
   SUMMARY "ROS driver for Velodyne HDL devices."
+  AUTHOR "Ralf Kaestner"
   AUTHOR "Jerome Maye"
   CONTACT "ralf.kaestner@gmail.com"
   HOME "http://github.com/ethz-asl/velodyne_ros"
